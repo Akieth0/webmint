@@ -16,7 +16,9 @@ def run_session():
     try:
         driver.get("https://webmin.onrender.com")
         print(f" connected to page")
-        for i in range(0,10000000):
+        i = 0
+        while True:
+            i = i+1
             print(i)
         
    
